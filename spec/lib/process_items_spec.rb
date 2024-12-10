@@ -2,7 +2,7 @@
 
 RSpec.describe "ProcessItems" do
   describe "#call" do
-    subject(:call) { ProcessItems.new.call("some_file", batch_size: 1) }
+    subject(:call) { ProcessItems.new(max_batch_size: 400).call("some_file") }
 
     let(:file_content) do
       sample_file = File.expand_path("../fixtures/files/sample.xml", __dir__)

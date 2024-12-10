@@ -2,7 +2,7 @@
 
 RSpec.describe "App" do
   describe "#call" do
-    subject(:call) { ProcessItems.new.call(file, batch_size: 1_000) }
+    subject(:call) { ProcessItems.new.call(file) }
 
     let(:file) { File.expand_path("../fixtures/files/sample.xml", __dir__) }
 
