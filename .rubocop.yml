@@ -8,6 +8,9 @@ AllCops:
 
 Layout/LineLength:
   Enabled: true
+  Exclude:
+  - spec/lib/parse_xml_data_spec.rb
+  - spec/lib/process_items_spec.rb
 
 Lint/UnusedBlockArgument:
   AllowUnusedKeywordArguments: true
