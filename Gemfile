@@ -5,4 +5,8 @@ source "https://rubygems.org"
 # Linters
 gem "rubocop"
 
+# Testing
+gem "rspec"
+
+# Misc
 # gem "pry"
