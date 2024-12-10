@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 
+# Core components
+gem "zeitwerk"
+
 # Linters
 gem "rubocop"
 
