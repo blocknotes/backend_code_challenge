@@ -3,6 +3,7 @@
 source "https://rubygems.org"
 
 # Core components
+gem "ox"
 gem "zeitwerk"
 
 # Linters
